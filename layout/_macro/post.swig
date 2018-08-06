@@ -344,6 +344,21 @@
     {### END POST BODY ###}
     {#####################}
 
+    <div>
+      {% if not is_index %}
+        <div style="text-align:center;color: #ccc;font-size:14px;">
+          ------ 本文结束 ------
+        </div>
+      {% endif %}
+    </div>
+
+    {% if theme.passage_end_tag.enabled and not is_index %}
+      <div>
+        {% include 'passage_end_tag.swig' with { post: post } %}
+      </div>
+    {% endif %}
+
+
     {% if theme.wechat_subscriber.enabled and not is_index %}
       <div>
         {% include 'wechat-subscriber.swig' %}
@@ -361,6 +376,7 @@
         {% include 'post-copyright.swig' with { post: post } %}
       </div>
     {% endif %}
+
 
     <footer class="post-footer">
       {% if post.tags and post.tags.length and not is_index %}

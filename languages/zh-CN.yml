@@ -15,12 +15,15 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益 404
+  book: 读书
+  design: 设计
 sidebar:
   overview: 站点概览
   toc: 文章目录
 post:
   created: 创建于
   modified: 更新于
+  updated: 更新于
   sticky: 置顶
   posted: 发表于
   in: 分类于
