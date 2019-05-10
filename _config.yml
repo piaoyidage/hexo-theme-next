@@ -125,7 +125,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  book: /books/ || book
+  # book: /books/ || book
   project: /project/ || heart
   about: /about/ || user
   # schedule: /schedule/ || calendar
@@ -271,19 +271,19 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: true
+  # updated_at: true
   # Only show 'updated' if different from 'created'.
   updated_diff: false
   categories: true
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-symbols_count_time:
-  separated_meta: true
-  item_text_post: true
-  item_text_total: true
-  awl: 5
-  wpm: 200
+# symbols_count_time:
+#   separated_meta: false
+#   item_text_post: false
+#   item_text_total: false
+#   awl: 5
+#   wpm: 200
 
 # Manual define the border radius in codeblock
 # Leave it empty for the default 1
@@ -628,7 +628,7 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: xGKQJ1hKdAdll9DWfV9gqNrz-gzGzoHsz #<app_id>
   app_key: bxVF9R4lasXStirCwa0ujjNt #<app_key>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
@@ -690,7 +690,7 @@ calendar:
 # See: https://github.com/theme-next/hexo-theme-next/blob/master/docs/ALGOLIA-SEARCH.md
 # Dependencies: https://github.com/theme-next/theme-next-algolia-instant-search
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 10
   labels:
@@ -832,7 +832,7 @@ canvas_nest: false
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
 # three_waves
-three_waves: true
+three_waves: false
 # canvas_lines
 canvas_lines: false
 # canvas_sphere
