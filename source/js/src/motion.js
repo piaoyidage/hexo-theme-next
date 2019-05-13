@@ -350,3 +350,12 @@ $(document).ready(function () {
   };
 
 });
+
+$(document).ready(function () {
+  $('.menu-item').each(function() {
+    var url = $(this).data('url')
+    if (url === window.location.pathname) {
+      $(this).addClass('menu-item-active')
+    }
+  })
+})
