@@ -5,7 +5,6 @@ hexo.extend.helper.register('item_active', function(path, className) {
   var current = this.url_for(canonical).replace('index.html', '', 'g');
   var url = this.url_for(path);
   var result = '';
-  console.error(path, canonical, current, url)
 
   if (current.indexOf(url) !== -1) {
     if (url !== '/blog/' || url === current) {
