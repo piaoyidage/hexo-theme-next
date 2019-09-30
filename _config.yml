@@ -202,7 +202,7 @@ links_layout: block
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 # avatar: /images/avatar.gif
-avatar: http://image.humaoying.com/images/2019/04/03/avatar.png
+avatar: /images/avatar.png
 
 # Table Of Contents in the Sidebar
 toc:
